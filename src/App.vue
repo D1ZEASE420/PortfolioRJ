@@ -1,8 +1,9 @@
-<template>
+<template> 
   <div :class="{ 'dark': isDarkMode }">
     <nav :class="isDarkMode ? 'bg-gray-900 text-white shadow-md' : 'bg-white text-black shadow-md'" class="py-4 fixed w-full z-10 top-0">
       <div class="container mx-auto flex justify-between items-center px-6">
-        <a href="#" class="text-2xl font-bold">D1ZEASE</a>
+        <!-- Updated link for D1ZEASE -->
+        <a href="https://github.com/D1ZEASE420" target="_blank" rel="noopener noreferrer" class="text-2xl font-bold">D1ZEASE</a>
         <ul class="flex text-xl space-x-20">
           <li><a href="#projects" :class="isDarkMode ? 'text-gray-300 hover:text-white' : 'text-gray-700 hover:text-blue-500'" @click.prevent="scrollToSection('projects')">Projects</a></li>
           <li><a href="#about" :class="isDarkMode ? 'text-gray-300 hover:text-white' : 'text-gray-700 hover:text-blue-500'" @click.prevent="scrollToSection('about')">About Me</a></li>
